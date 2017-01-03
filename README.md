@@ -10,5 +10,6 @@ The dataset is the one used for the [Kaggle Display Advertising Challenge](https
 * Since each iteration waits for the local_gradients to be computed on all 5 VMs before proceeding, this is a synchronous process.
 * We used samples in tfrecords22 for testing our trained gradient.
 * An error_rate is calculated at the end of every 1000 iterations.
+
 ## Environment
 A 5 node cluster, each node with 20GB RAM and 4 cores was used to run this application.
